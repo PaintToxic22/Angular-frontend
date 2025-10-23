@@ -7,7 +7,7 @@ import { User } from '../interfaces/user.interface';
   providedIn: 'root'
 })
 export class UserService {
-  private apiUrl = 'https://proyecto-angular-render-4.onrender.com/api';
+  private apiUrl = 'https://backend-vkzg.onrender.com/api';
 
   constructor(private http: HttpClient) { }
 
